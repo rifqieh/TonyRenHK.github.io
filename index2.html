@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script>
+       
+
+        function postToGoogle() {
+            $.mobile.changePage("#");
+            var Remark = $('#Remark').val();
+            var Description = $('#Description').val();
+            var Type = $('#Type').val();
+            var urllink = $('#urllink').val();
+            var now = new Date(); // for now
+            console.log(Type );
+            
+            $.ajax({
+                url: "https://docs.google.com/forms/d/1Z6035zM2q9BiHx9OgBVDBlIHYiVZcUG317vdIF2x8jM/formResponse",
+                data: {
+                    "entry.1865634441": Remark,
+                    "entry.900584618": Description,
+                    "entry.171706506":Type,
+                    "entry.880278913":now,
+                    "entry.1201077176":urllink
+                },
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function() {
+                        window.location.replace("thankyou.html");
+                    },
+                    200: function() {
+                        window.location.replace("http://tonyrenhk.github.io/thankyou.html");
+                    }
+                }
+            });
+            
+        }
+    </script>
+</head>
+
+<body>
+
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Tony</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <form id="formRequest" method="post" >
+                <fieldset data-role="controlgroup">
+
+                    Type:<br/>
+                    <select id= "Type" >
+                      <option value="Others">Others</option>
+                      <option value="Daily Record">Daily Record</option>
+                      <option value="Wechat Public">Wechat Public</option>
+                      <option value="BookMark">BookMark</option>
+                      <option value="Note">Note</option>
+                      <option value="Useful Link">Useful Link </option>
+                    </select>
+                    <br/> Remark:
+
+                    <br/>
+                    <input type="text" name="fname" id="Remark">
+                    <br/> Description:
+
+                    <br/>
+                    <textarea rows="8" id="Description"></textarea>
+                      <br/> URL:
+                    <br/>
+                    <textarea rows="3" id="urllink"></textarea>
+                </fieldset>
+                <button type="button"  onclick="postToGoogle()">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body> 
+
+</html>

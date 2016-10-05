@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript">
+        google.load('visualization', '1', {
+            packages: ['table']
+        });
+    </script>
+    <script type="text/javascript">
+     $.fn.dataTable.ext.search.push(
+            function( settings, data, dataIndex ) {
+            	if(ViewType=='Daily'){
+            	    if(data[1]=='Daily Record'){
+            	    	return true;
+            	    }else{
+            	    	return false;
+            	    }
+            	}else{
+            		// ViewType='Daily'
+            		return true;	
+            	}
+            }
+        );	
+            	
+        var changeType=false;    	
+        var ViewType;
+        $(document).ready(function() {
+            ViewType = getParameterByName('ViewType');
+            google.setOnLoadCallback(drawVisualization);
+
+        });
+
+        var visualization;
+
+        function drawVisualization() {
+            var query = new google.visualization.Query(
+                'http://spreadsheets.google.com/tq?key=1ycouJqAMuEuWuQ09Vmeo5dE-AqlX3pPolrW_ZQVX9g8');
+            query.setQuery('SELECT A, B, C ,D,E,F,G');
+            query.send(handleQueryResponse);
+        }
+
+        function handleQueryResponse(response) {
+            if (response.isError()) {
+                alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+                return;
+            }
+            var data = response.getDataTable();
+            DrawTable(data);
+        }
+
+        function DrawTable(ContentData) {
+            var tablehtml = '<thead><tr>';
+            var dataList = [];
+            $.each(ContentData, function(key, value) {
+                if (typeof value == 'object' && value != null && value.length > 0) {
+                    dataList.push(value);
+                }
+            });
+
+            //Header
+            var count = 0;
+            $.each(dataList[0], function(key, value) {
+                count++;
+                tablehtml += '<th style="overflow: hidden;" >' + value.label + '</th>';
+            });
+            tablehtml += '</tr></thead>';
+            //table body 
+            tablehtml += '<tbody>';
+
+            $.each(dataList[1], function(key, value) {
+                tablehtml += '<tr>';
+                for (var j = 0; j < count; j++) {
+                    if (value.c[j] != null) {//console.log(value.c[j].v); 
+                        tablehtml += '<td style="overflow: hidden;" class="tdpadding">' + value.c[j].v + '</td>';
+                    } else {
+                        tablehtml += '<td  style="overflow: hidden;"  class="tdpadding" ></td>';
+                    }
+                }
+                tablehtml += '</tr>';
+            });
+            tablehtml += '</tbody>';
+            //Draw table
+            var table = $('#TableDIV');
+            table.append(tablehtml);
+            var wd=Number($(window).width())-20;
+           $('#TableDIV').css('width', wd+'px');
+            if (ViewType == 'Daily') {
+                table = $('#TableDIV').DataTable({
+                    "pageLength": 50,
+                    "order": [ 5, 'desc' ],
+                    "columnDefs": [
+                    	{
+	                "targets": [0],
+	                "visible": false,
+	                "searchable": false
+	            },
+	            { "width": "15%", "targets": 1 },
+	            {
+	                "targets": [2],
+	                "visible": false,
+	                "searchable": false
+	            },{
+	                "targets": [4],
+	                "visible": false,
+	                "searchable": false
+	            }, 
+	            { 
+	            	type: 'date-uk',
+	            	 "render": function ( data, type, row ) {
+	            	 	var tempdate = new Date(data);
+                            return formatDate(tempdate); 
+                        },
+	            	targets: -2 
+	            },
+	            {
+	            	"width": "15%", 
+	            	"targets": 5 
+	            },
+	            {
+	                "targets": [6],
+	                "visible": false,
+	                "searchable": false
+	            }
+		  ]
+                });
+                $('td span').each(function() {
+                	//$(this).css('font-size', fontSize + '%');
+		    
+		    if($(this)[0].getAttribute('HeaderName')!='Description'){
+		    	$(this).css('font-size', '50%');
+		    	//console.log( $(this));
+		    }
+		});	
+                
+            }else{
+            	 table = $('#TableDIV').DataTable({
+                    //responsive: true
+                });
+            	 
+            }
+	   	
+        }
+        
+	function isTouchDevice(){
+            return typeof window.ontouchstart !== 'undefined';
+        }
+        
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        
+        function formatDate(date) {
+	  var hours = date.getHours();
+	  var minutes = date.getMinutes();
+	  var ampm = hours >= 12 ? 'PM' : 'AM';
+	  hours = hours % 12;
+	  hours = hours ? hours : 12; // the hour '0' should be '12'
+	  minutes = minutes < 10 ? '0'+minutes : minutes;
+	  var strTime = hours + ':' + minutes + ' ' + ampm;
+	  return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + " " + strTime;
+	}
+
+
+
+
+    </script>
+    
+    <style>
+    	.tdpadding{
+    		padding-left: 0.5em;
+    	}
+        th {
+            border-bottom: 1px solid #d6d6d6;
+        }
+        tr:nth-child(even) {
+            background: #e9e9e9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>View DataBase</h1>
+        </div>
+
+        <div data-role="main" >
+            <table id="TableDIV"   style=" table-layout: fixed;  " >
+            </table>
+        </div>
+
+        <div data-role="footer">
+            <h1>LikeHK</h1>
+        </div>
+    </div>
+</body>
+</html>
