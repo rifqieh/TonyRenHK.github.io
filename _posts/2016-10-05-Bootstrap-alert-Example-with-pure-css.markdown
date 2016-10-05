@@ -8,9 +8,9 @@ tags:  Html CSS Bootstrap Demo
 {:toc}
 
 
-## Question
+## Description
 
-Sometimes, Bootstrap cannot use in your environment.
+Sometimes, Bootstrap cannot use in your environment, we can only use pure css in HTML.
 
 
 
@@ -18,7 +18,7 @@ Sometimes, Bootstrap cannot use in your environment.
 
 ## Demo
 
-Sometimes, Bootstrap cannot use in your environment, We can use following code :
+Sometimes, Bootstrap cannot use in your environment, We can use following code and the result can be like http://www.w3schools.com/bootstrap/bootstrap_alerts.asp :
 
 ```sh
 
@@ -51,9 +51,7 @@ The demo link: [Demo](https://tonyrenhk.github.io/Demo/HTML/BootstrapAlert.html)
 
 Online Demo here:
 
-{% include iframePage.html height="200em" id="https://tonyrenhk.github.io/Demo/HTML/BootstrapAlert.html" %}
-
-
+{% include iframePage.html height="100em" id="https://tonyrenhk.github.io/Demo/HTML/BootstrapAlert.html" %}
 
 
 Thanks for reading this article. Any code samples provided here are purely for experimental purposes. The primary purpose of this article is just to share the knowledge and my own experience. Nothing more, nothing less. Use this code and approach at your own risk.Please feel free to contact me (yamshingkwan@gmail.com) if you have any inquiry or the code have any problem. Thank you.
