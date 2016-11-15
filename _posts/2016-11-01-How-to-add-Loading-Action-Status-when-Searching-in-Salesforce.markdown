@@ -21,7 +21,7 @@ How to add 'Loading' Action Status when Searching in Salesforce?
 
 How to add'Loading' when searching?
 The following code can be added in Visualforce page.
-javascript code:
+Firstly, we can write javascript code:
 
 ```
 $(document).on('mousemove', function(e){
