@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to send email in TriggerClass in Salesforce?"
-categories: Searching
-tags:  Searching Apex TriggerClass sending-email
+categories: Salesforce
+tags:  Salesforce Apex TriggerClass sending-email SFDC
 ---
 * content
 {:toc}
