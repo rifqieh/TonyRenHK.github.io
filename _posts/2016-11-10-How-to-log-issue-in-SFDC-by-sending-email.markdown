@@ -27,9 +27,11 @@ Debug-->Open Execute Anonymous Window ( Ctrl+E)
 
 ![alt tag](https://raw.githubusercontent.com/TonyRenHK/Demo/master/Blog/2016-11-10%2013_50_48-Force.com%20Developer%20Console.png)
 
+
 and then
 
 ![alt tag](https://raw.githubusercontent.com/TonyRenHK/Demo/master/Blog/2016-11-10%2013_51_15-Force.com%20Developer%20Console.png)
+
 
 **Sending Email Method**
 {% include GistCode.html id="67721ffcf9d7ed806d3fb521e3c62a15" %}
