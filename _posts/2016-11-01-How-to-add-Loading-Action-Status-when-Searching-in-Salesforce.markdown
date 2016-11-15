@@ -34,9 +34,22 @@ $(document).on('mousemove', function(e){
 
 Apex Code in salesforce:
 
+```
+<apex:actionstatus id="ActionStatus">
+        <apex:facet name="start">
+            <div class="waitingSearchDiv" id="el_loading" style="background-color: #fbfbfb;
+               height: 1000%; width:1000%; opacity:0.65;"> 
+                <div class="waitingHolder" id="loadtext" style="position: absolute;" align="left" valign="top">
+                    &nbsp;&nbsp;&nbsp;
+                    <img class="waitingImage" src="/img/loading.gif" title="Please Wait..." />
+                    <span class="waitingDescription">Please Wait...</span>
+                </div>
+            </div>
+        </apex:facet>
+    </apex:actionstatus> 
+```
 
-
-Searching Button:
+And then we can write Searching Button:
 
 ```
 <apex:commandButton value="<<" action="{!firstPage}" reRender="results,debug,error,pagination" status="ActionStatus" />
