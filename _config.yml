@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Tony Ren Blog
+title: Tony Ren Space
 brief-intro:  Developer Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://renchk.github.io" # the base hostname & protocol for your site
@@ -20,7 +20,7 @@ github_username:  renchk
 email: renchk@foxmail.com
 weibo_username: 
 zhihu_username: 
-linkedIn_username: 
+linkedIn_username: tony-ren-hk
 dribbble_username:
 
 description_footer: This my Study Site.

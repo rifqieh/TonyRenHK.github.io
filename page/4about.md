@@ -23,13 +23,17 @@ I am Tony Ren from Hong Kong。
 * GitHub：[Renchk](https://github.com/Renchk)
 * Email：renchk@foxmail.com
 * [Google ++](https://plus.google.com/104700122819352899100)
-
+* [LinkedIn](https://hk.linkedin.com/in/tony-ren-hk)
+* [Blogger](http://renchk.blogspot.hk/)
+* [YouTube](https://www.youtube.com/channel/UCYKaW0KfHSuKw2SpqebLqeQ)
+ 
 
 ## About this Site
 
-**If you like this 'jekyll' blog style，please visit：[https://github.com/Renchk/renchk.github.io](https://github.com/Renchk/renchk.github.io)**
+**If you like this 'jekyll' blog style，please visit my blog Repository ：[https://github.com/TonyRenHK/TonyRenHK.github.io](https://github.com/TonyRenHK/TonyRenHK.github.io)**
 
 ~Welcome to use~
+
 
 
 ### Acknowledgment
