@@ -37,6 +37,7 @@ icon: bookmark
 
 * [JavaScript 设计模式 系列 AlloyTeam](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 
+* [Online JavaScript beautifier](http://jsbeautifier.org/)
 
 ### NodeJS
 
@@ -73,7 +74,7 @@ icon: bookmark
 * [cssslider](http://cssslider.com/)
 
 
-## Useful Link
+## Blog writing and Development
 
 [Online Markdown Editor](http://dillinger.io/) \| [RawGit](https://rawgit.com/) 
 
