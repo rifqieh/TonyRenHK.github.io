@@ -43,9 +43,6 @@ And We would also like to show our gratitude to the [HyG](https://github.com/Gao
 
 
 
-## Useful Link
-
-[Online Markdown Editor](http://dillinger.io/) \| [RawGit](https://rawgit.com/) 
 
 ## Comments
 
