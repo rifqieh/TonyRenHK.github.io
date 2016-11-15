@@ -33,6 +33,7 @@ $(document).on('mousemove', function(e){
 ```
 
 Apex Code in salesforce:
+
 ```
 <apex:actionstatus id="ActionStatus">
         <apex:facet name="start">
@@ -50,6 +51,7 @@ Apex Code in salesforce:
 ```
 
 Searching Button:
+
 ```
 <apex:commandButton value="<<" action="{!firstPage}" reRender="results,debug,error,pagination" status="ActionStatus" />
 ```
