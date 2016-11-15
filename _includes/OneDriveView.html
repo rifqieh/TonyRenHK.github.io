@@ -1,1 +1,9 @@
-<iframe src="{{ include.id }}" width="476" height="288" frameborder="0" scrolling="no"></iframe> 
+<script type="text/javascript">
+  function iframeLoaded(that) {
+      // console.log(that.contentWindow.document.body.scrollHeight);//console.log($('#idIframe').scrollHeight;//
+      console.log($('#idIframe').parent().width());//
+      //$('#idIframe').width($('#OneDriveViewframe').parent().width());
+      
+  }
+</script> 
+<iframe id="OneDriveViewframe" src="{{ include.id }}"   onload="iframeLoaded(this)"  height="500" frameborder="0" scrolling="no"></iframe> 
