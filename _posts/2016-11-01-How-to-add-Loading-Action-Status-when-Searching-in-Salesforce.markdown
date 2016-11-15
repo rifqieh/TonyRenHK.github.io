@@ -7,13 +7,17 @@ tags:  Searching Apex
 * content
 {:toc}
 
-
 ## Question
 
-How to add 'Loading' Action Status when Searching in Salesforce
+How to add 'Loading' Action Status when Searching in Salesforce?
 
 
-## Solution
+
+
+
+
+## Demo
+
 
 How to add'Loading' when searching?
 The following code can be added in Visualforce page.
