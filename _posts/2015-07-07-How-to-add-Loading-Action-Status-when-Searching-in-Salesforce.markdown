@@ -16,7 +16,7 @@ How to add 'Loading' Action Status when Searching in Salesforce?
 
 
 
-## Demo
+## Solution
 
 
 How to add'Loading' when searching?
