@@ -2,7 +2,7 @@
 layout: post
 title:  "Generate Blog Post Name for Jekyll Blog quickly"
 categories: JQuery
-tags:  JQuery Html Demo
+tags:  JQuery Html Demo Application
 ---
 * content
 {:toc}
