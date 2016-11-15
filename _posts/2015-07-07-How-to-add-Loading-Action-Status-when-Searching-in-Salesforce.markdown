@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to add 'Loading' Action Status when Searching in Salesforce?"
-categories: Searching
-tags:  Searching Apex
+categories: Salesforce
+tags:  Salesforce Apex SFDC visualforce-page
 ---
 * content
 {:toc}
