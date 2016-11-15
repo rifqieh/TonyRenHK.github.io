@@ -22,7 +22,7 @@ Top Ten Ways to Tune your Essbase BSO Database
 I use following PDF (Top Ten Ways to Tune your Essbase BSO Database.pdf) to tune my Essbase Database
 
 
-{% include OneDriveView.html id="https://onedrive.live.com/embed?cid=6FC96947AEDEEFC0&resid=6FC96947AEDEEFC0%216051&authkey=ABCDMBKkUksxciM&em=2" %}
+{% include OneDriveView.html height="400em" id="https://onedrive.live.com/embed?cid=6FC96947AEDEEFC0&resid=6FC96947AEDEEFC0%216051&authkey=ABCDMBKkUksxciM&em=2" %}
  
 
 
