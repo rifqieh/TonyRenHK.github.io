@@ -79,7 +79,6 @@ The Hit Ratio on Data File Cache setting indicates the Essbase Kernel success ra
 The Hit Ratio on Data Cache setting indicates the Essbase success rate in locating data blocks in the data cache without having to retrieve the block from the data file cache.
 
 
-	
- 	
+**Reference:**
 
-
+https://docs.oracle.com/cd/E12825_01/epm.111/esb_dbag/frameset.htm?dstcache.htm
