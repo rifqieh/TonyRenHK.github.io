@@ -13,10 +13,15 @@ icon: heart
 I am Tony Ren from Hong Kong。
 
 
-
+* 2016 Start studying NodeJS and some other front-end technologies
 * 2015 Start studying Salesforce
-* 2014 Enter HKUST
-* 2010 Enter SYSU
+* 2015 Start studying Javascript
+* 2014 studying @ HKUST
+* 2014 Start studying PHP
+* 2012 Start studying Python
+* 2012 Start studying Matlab
+* 2010 Start studying C++
+* 2010-2014 studying @ SYSU(SUN YAT-SEN UNIVERSITY)
 
 ## Contact Me?
 
