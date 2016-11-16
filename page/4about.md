@@ -13,7 +13,7 @@ icon: heart
 I am Tony Ren from Hong Kong。
 
 
-* 2016 Start studying NodeJS and some other front-end technologies
+* 2016 Start studying web development including NodeJS and some other front-end technologies
 * 2015 Start studying Salesforce
 * 2015 Start studying Javascript
 * 2014 studying @ HKUST(Hong Kong University of Science and Technology)
