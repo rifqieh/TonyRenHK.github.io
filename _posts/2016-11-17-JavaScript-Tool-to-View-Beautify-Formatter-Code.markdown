@@ -31,7 +31,7 @@ Demo here:
 Tools: 
 http://codebeautify.org/jsviewer
 Online JavaScript beautifier:  http://jsbeautifier.org/
-
+ 
 Reference:
   * CodeMirror: Versatile text editor implemented in JavaScript for the browser,https://codemirror.net/
   *clipboard.js — Copy to clipboard without Flash: https://clipboardjs.com/ 
