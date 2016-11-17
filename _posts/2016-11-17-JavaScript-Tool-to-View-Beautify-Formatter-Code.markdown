@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript Tool to View,Beautify,Formatter Code"
+title:  "JavaScript Tool to View Beautify Formatter Code"
 categories: JavaScript
 tags:  JavaScript Html Demo
 ---
@@ -11,6 +11,7 @@ tags:  JavaScript Html Demo
 ## Question
 
 JavaScript Tool to View,Beautify,Formatter Code
+
 
 
 
