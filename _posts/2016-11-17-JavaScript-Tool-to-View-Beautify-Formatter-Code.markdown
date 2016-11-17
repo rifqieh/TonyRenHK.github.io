@@ -27,6 +27,9 @@ Demo here:
 
 {% include iframePage.html height="400em" id="https://tonyrenhk.github.io/TonyRen/Single-Page-Application/FormattingCode.html" %}
 
+
+Or click [here](https://tonyrenhk.github.io/TonyRen/Single-Page-Application/FormattingCode.html)
+
 Tools: 
 
 http://codebeautify.org/jsviewer
