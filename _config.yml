@@ -14,7 +14,7 @@ url: "https://renchk.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username:renchk20 
+twitter_username: renchk20 
 facebook_username: 
 github_username:  renchk
 email: renchk@foxmail.com
