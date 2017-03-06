@@ -27,7 +27,7 @@ Sometimes, we need to add css in apex:commandButton with bootstrap style, howeve
 ```
 And the result will be:
 
-![alt tag](https://raw.githubusercontent.com/TonyRenHK/TonyRen/master/Image/Blog/2017-03-06-How-to-add-bootstrap-in-apex-commandButton.JPG)
+![alt tag](https://raw.githubusercontent.com/TonyRenHK/TonyRen/master/Img/B/2017-03-06-How-to-add-bootstrap-in-apex-commandButton.JPG)
 
 In normal case,
 
@@ -39,7 +39,7 @@ In normal case,
 ```
 And the result will be:
 
-![alt tag](https://raw.githubusercontent.com/TonyRenHK/TonyRen/master/Image/Blog/2017-03-06-How-to-add-bootstrap-in-apex-commandButton2.JPG)
+![alt tag](https://raw.githubusercontent.com/TonyRenHK/TonyRen/master/Img/B/2017-03-06-How-to-add-bootstrap-in-apex-commandButton2.JPG)
 
 
 
