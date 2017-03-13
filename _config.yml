@@ -7,7 +7,7 @@
 
 # Site settings
 title: Tony Ren Space
-brief-intro:  Developer Engineer
+brief-intro:  System Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://renchk.github.io" # the base hostname & protocol for your site
 
