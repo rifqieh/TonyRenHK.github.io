@@ -10,7 +10,7 @@ tags:  backup apex Salesforce metadata
 
 ## Question
 
-(JSForce tutorial): How to backup your Apex code/metadata in your Salesforce organization in your Local Side
+How to backup your Apex code/metadata from your Salesforce organization?
 
 
 
@@ -19,14 +19,14 @@ tags:  backup apex Salesforce metadata
 
 ## Background
 
-
+How to backup your Apex code/metadata from your Salesforce organization in your Local Side?
 
 As you know, salesforce currently, don’t have code version management, and developers should backup and manage code in their local side for their future comparison. Today, I will share some experience about how we backup our Apex code/metadata in our local side. 
  
  
-The library we are used is JSFORCE (https://jsforce.github.io/document/#bulk-api)  and you need to finish related setup in your side 
+The library we are used is **JSFORCE** (http://jsforce.github.io/document/#bulk-api)  and you need to finish related setup in your side 
  
-And I used one JavaScript library named 'js-beautify' (https://www.npmjs.com/package/js-beautify) which can reformat the metadata in our local file.
+And I used one JavaScript library named **'js-beautify'** (http://www.npmjs.com/package/js-beautify) which can reformat the metadata in our local file.
 
 
 ##  How to use Jsforce to login SFDC Production env?
