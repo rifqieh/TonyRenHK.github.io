@@ -10,7 +10,7 @@ tags:  backup apex Salesforce metadata
 
 ## Question
 
-[JSForce tutorial]: How to backup your Apex code/metadata in your Salesforce organization in your Local Side
+(JSForce tutorial): How to backup your Apex code/metadata in your Salesforce organization in your Local Side
 
 
 
