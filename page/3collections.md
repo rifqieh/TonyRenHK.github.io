@@ -32,7 +32,7 @@ icon: bookmark
 * [JSForce: Develop Salesforce apps with JavaScript whether it's running on server or web browser.](https://jsforce.github.io/ )
 
 
-* [A small but growing collection of neat tricks for debugging force.com applications](https://chrome.google.com/webstore/detail/grey-tab/gdhilgkkfgmndikdhlenenjbacmnggmb) 
+* [A small but growing collection of neat tricks for debugging force.com applications](https://chrome.google.com/webstore/detail/grey-tab/gdhilgkkfgmndikdhlenenjbacmnggmb)  https://github.com/capeterson/Grey-Tab
 
 * [G-Connector for Salesforce ](https://chrome.google.com/webstore/detail/g-connector-for-salesforc/inpioilbljppoobbblcpbpjplkefmkep?hl=en)
 
