@@ -24,10 +24,22 @@ icon: bookmark
 * [CSS Generators -CSSREFLEX](http://www.cssreflex.com/css-generators/)
 
    
-## Programming Language
+## Salesforce Link/Tools
+
+
+* [Apex-mdapi (Apex Wrapper for the Salesforce Metadata API)](https://devhub.io/repos/financialforcedev-apex-mdapi)
+
+* [JSForce: Develop Salesforce apps with JavaScript](https://jsforce.github.io/ )  whether it's running on server or web browser.
+
+* [A small but growing collection of neat tricks for debugging force.com applications](https://chrome.google.com/webstore/detail/grey-tab/gdhilgkkfgmndikdhlenenjbacmnggmb) https://github.com/capeterson/Grey-Tab 
+
+* [G-Connector for Salesforce ](https://chrome.google.com/webstore/detail/g-connector-for-salesforc/inpioilbljppoobbblcpbpjplkefmkep?hl=en)
+
+
 
 ### JavaScript
 
+* [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
 
 * [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
 
@@ -52,7 +64,7 @@ icon: bookmark
 
 ### AngularJS
 
-* [AngularJS api 官网](https://docs.angularjs.org/api)
+* [AngularJS api](https://docs.angularjs.org/api)
 
 * [AngularJS入门教程——AngularJS中文社区提供](https://github.com/zensh/AngularjsTutorial_cn)
 
