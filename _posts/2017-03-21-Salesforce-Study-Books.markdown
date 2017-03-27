@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Salesforce Study Book PDF"
-categories: bootstrap
+categories: Study
 tags:  Salesforce Study PDF 
 ---
 * content
