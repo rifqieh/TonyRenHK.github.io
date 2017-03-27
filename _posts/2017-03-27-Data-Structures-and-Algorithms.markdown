@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Data Structures and Algorithms PDF"
-categories: bootstrap
+categories: Study
 tags:  Data Structures Algorithms 
 ---
 * content
