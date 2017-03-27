@@ -3,14 +3,12 @@
   
   function iframeLoaded(that) {
     console.log(that);
+    console.log(that.id);
     console.log('Enter');
     
   }
   
-  function test(InputId){
-    console.log(InputId);
-  }
-  
+ 
 </script> 
 
-<iframe width="560" height="315" onload="iframeLoaded(this); test('/{{ include.id }}'/);" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+<iframe id="{{ include.id }}" width="560" height="315" onload="iframeLoaded(this);" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
