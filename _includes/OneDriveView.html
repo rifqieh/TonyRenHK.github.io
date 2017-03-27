@@ -1,11 +1,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
   function iframeLoaded(that) { //console.log($('#OneDriveViewframe').parent().width());// // console.log(that.contentWindow.document.body.scrollHeight);//console.log($('#idIframe').scrollHeight;//
-      $('#OneDriveViewframe').width($('#OneDriveViewframe').parent().width());
+    var ViewId=that.id;
+    $('#'+ViewId).width($('#'+ViewId).parent().width());  
+    //$('#OneDriveViewframe').width($('#OneDriveViewframe').parent().width());
       
   }
 </script> 
-<iframe id="OneDriveViewframe" 
+<iframe id="{{ include.id }}"  
         src="{{ include.id }}"  
         onload="iframeLoaded(this)"
         height="{{ include.height }}"  
