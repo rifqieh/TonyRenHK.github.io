@@ -24,7 +24,7 @@ Now I will share following some books about Salesforce Product which is used for
 
 ### Developer Limits Quick Reference share PDF
 
-{% include OneDriveView.html height="900em" id="https://onedrive.live.com/embed?cid=6FC96947AEDEEFC0&resid=6FC96947AEDEEFC0%216055&authkey=ACHavWAKC4G2WXc&em=2" %}
+{% include OneDriveView.html height="400em" RecordId="6FC96947AEDEEFC0216055"   id="https://onedrive.live.com/embed?cid=6FC96947AEDEEFC0&resid=6FC96947AEDEEFC0%216055&authkey=ACHavWAKC4G2WXc&em=2" %}
 
 Or with the link : https://1drv.ms/b/s!AsDv3q5HaclvryeQlSxsOTq4l9OK
 
