@@ -2,12 +2,13 @@
 <script type="text/javascript">
   
 function iframeLoaded(that) {
-    console.log(that);
-    console.log(that.id);
-    console.log('Enter');
+  console.log(that);
+  console.log(that.id);
+  var videoId=that.id;
+  $('#'+videoId).width($('#'+videoId).parent().width());
 }
   
  
 </script> 
 
-<iframe id="{{ include.id }}" width="560" height="315" onload="iframeLoaded(this);" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+<iframe id="{{ include.id }}"  height="315" onload="iframeLoaded(this);" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
