@@ -2,6 +2,8 @@
 <script type="text/javascript">
   function iframeLoaded(that) { //console.log($('#OneDriveViewframe').parent().width());// // console.log(that.contentWindow.document.body.scrollHeight);//console.log($('#idIframe').scrollHeight;//
     var ViewId=that.id;
+    
+    console.log(ViewId);
     $('#'+ViewId).width($('#'+ViewId).parent().width());  
     //$('#OneDriveViewframe').width($('#OneDriveViewframe').parent().width());
   }
