@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Salesforce Product Demo by Tony"
-categories: bootstrap
+categories: Demo
 tags:  Salesforce SFDC Demo 
 ---
 * content
