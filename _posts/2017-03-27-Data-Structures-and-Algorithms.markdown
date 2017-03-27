@@ -21,7 +21,7 @@ Data Structures and Algorithms
 
 Now I will share following some books about Data Structures Algorithms which is used for studying only.
 
-{% include OneDriveView.html height="900em" id="https://onedrive.live.com/embed?cid=6FC96947AEDEEFC0&resid=6FC96947AEDEEFC0%216077&authkey=AAh0P8-u5_-QyVM&em=2" %}
+{% include OneDriveView.html height="900em" RecordId="6FC96947AEDEEFC0" id="https://onedrive.live.com/embed?cid=6FC96947AEDEEFC0&resid=6FC96947AEDEEFC0%216077&authkey=AAh0P8-u5_-QyVM&em=2" %}
 
 Or with the link : https://1drv.ms/b/s!AsDv3q5Haclvrz3n9beCtY5cIVoy
 
