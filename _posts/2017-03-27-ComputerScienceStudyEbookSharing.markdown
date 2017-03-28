@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Computer Science Study E-Book Sharing
+title:  "Computer Science Study E-Book Sharing"
 categories: Study
 tags:  Computer Science PDF  
 ---
