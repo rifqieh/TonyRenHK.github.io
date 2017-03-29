@@ -10,7 +10,7 @@ icon: heart
 
 ## About Me
 
-I am Tony Ren from Hong Kong。
+I am Tony Ren from Hong Kong, as an open source contributor, public speaker, blog writer, I just want to give back to the community, which gives me and all of you too much good things to learn and develop our self.
 
 
 * 2016 Start studying web development including NodeJS and some other front-end technologies
