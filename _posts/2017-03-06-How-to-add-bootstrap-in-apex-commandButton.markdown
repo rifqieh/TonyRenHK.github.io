@@ -43,6 +43,14 @@ And the result will be:
 
 
 
+Besides,  this css style can also add in input with button type.
+
+
+
+```
+<input type="button" onclick="{!c.deleteLine}" id="{!'Delete_'+line.Id}" value="Delete" > </input>
+```
+
 
 
 Reference:
