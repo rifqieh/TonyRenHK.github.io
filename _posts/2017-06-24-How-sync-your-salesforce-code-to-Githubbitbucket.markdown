@@ -48,6 +48,17 @@ All above steps will be like following.
 
 **retrieve all Code-Related Metadata**
 
+
+
+There, I use JSForce library to retrieve all Code-Related Metadata and object matadata.
+Also you need to install related library in your machine
+
+* npm install jsforce
+* npm install js-beautify
+* npm install mkdirp
+
+
+
 The related code:
 
 {% include GistCode.html id="f4d3ed2a3a4ce3a22c256d224ad739bd" %}
@@ -62,10 +73,11 @@ The related code:
 
 Firstly, I create shell script file named 'Gitshell.sh', I the shell script file, I will do following things:
 
-* Clone my Repository from Githut/Bitbucket
-* Retrieve salesforce code from Sandbox/Production
-* Move the Retrieved code to the cloned Repository folder
-* Push all related the changes to Githut/Bitbucket
+* create one foler name 'backup'.
+* Clone my Repository from Githut/Bitbucket in 'backup' foler.
+* Retrieve salesforce code from Sandbox/Production using nodejs JSForce.
+* Move the Retrieved code to the cloned Repository folder.
+* Push all related the changes to Githut/Bitbucket.
 
 The related code:
 
