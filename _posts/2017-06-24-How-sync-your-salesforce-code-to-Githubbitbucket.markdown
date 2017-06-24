@@ -55,13 +55,19 @@ The related code:
 
 
 **Cloning Repository and push the code to the Repository using shell script**
+Firstly, I create shell script file named 'Gitshell.sh', I the shell script file, I will do following things:
 
+* Clone my Repository from Githut/Bitbucket
+* Retrieve salesforce code from Sandbox/Production
+* Move the Retrieved code to the cloned Repository folder
+* Push all related the changes to Githut/Bitbucket
 
 The related code:
 
 {% include GistCode.html id="f104481b045fde58e767c029b077a662" %}
 
 
+You can run 'bash Gitshell.sh' Linux Terminal
 
 
 
